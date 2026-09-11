@@ -1,0 +1,20 @@
+[package]
+name = "goal-tracker-tui"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[[bin]]
+name = "goal-tracker"
+path = "src/main.rs"
+
+[dependencies]
+goal-tracker-core = { path = "../core" }
+ratatui = "0.30.2"
+clap = { version = "4", features = ["derive"] }
+unicode-truncate = "2"
+unicode-width = "0.2"
+
+[lints]
+workspace = true

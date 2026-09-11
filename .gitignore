@@ -1,0 +1,21 @@
+# Rust
+/target
+**/*.rs.bk
+*.pdb
+
+# SQLite databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Personal roadmap seed data
+*.seed.toml
